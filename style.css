@@ -1,0 +1,273 @@
+
+body {
+    margin: 0;
+}
+
+
+nav {
+    background-color: rgb(225, 233, 233);
+    display: flex;
+    height: 7vh;
+}
+
+nav .nav-left {
+    /* background-color: blueviolet; */
+    display: flex;
+    padding-left: 100px;
+    flex: 50%;
+    align-items: center;
+}
+
+
+nav .nav-left li {
+    display: inline;
+}
+
+nav .nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+}
+
+
+nav .nav-right {
+    /* background-color: brown; */
+    display: flex;
+    justify-content: flex-end; /* horizontal */
+    align-items: center; /* vertical */
+    flex: 50%;
+    padding-right: 100px;
+}
+
+nav .nav-right a {
+    background-color: orangered;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+ .form-input
+ {
+   
+    width: 400px; 
+    margin: 50px auto;
+ }
+
+ .form-input input
+ {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(209, 207, 207);
+ }
+
+ .form-input textarea
+ {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(209, 207, 207);
+    height: 100px;
+ }
+
+ .form-input button
+ {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-top: 30px;
+    margin-left: 300px;
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+ }
+
+
+ .input-skill
+ {
+    display: flex; 
+    margin: 10px auto;
+ }
+ .input-skill input
+ {
+     margin: 10px auto;
+     width: 20px;
+     
+
+ }
+ .input-skill label
+ {
+     margin: 10px auto;
+     font-size: larger;
+ }
+
+.container {
+    background-color: white;
+    height: 93vh;
+    display: flex;
+    margin: 70px;
+    /* padding: 50px; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.container section {
+    /* background-color: cadetblue; */
+    display: flex;
+    width: 85%;
+}
+
+section .section-left {
+    flex: 90%;
+    padding-right: 50px;
+}
+
+section .section-right {
+    /* background-color: rgb(99, 97, 106); */
+    flex: 40%;
+    padding-left: 100px;
+}
+
+ section .section-right p 
+    {
+    color: grey;
+  }
+
+ section .social-media
+ {
+     padding-top: 60px;
+ }
+ section .contact
+ {
+     padding-top: 50px;
+ }
+
+ .myProject 
+ {
+    margin-top: 15px;
+ }
+ .input-file
+ {
+     width: 100%;
+     margin-top : 10px;
+     background-color: rgb(255, 255, 255);
+     border-radius: 3px;
+     border-radius: 4px;
+
+     /* border: 1px solid black; */
+ }
+ .input-file label
+ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+     
+ }
+ .input-file p
+ {
+     width: 20%;
+     height: 20%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-weight: normal;
+     border-radius: 3px;
+ }
+ .input-file i{
+     width: 20%;
+     display: flex;
+     justify-content: flex-end;
+     margin: 10px ;
+ }
+
+ .project-section
+ {
+     width: 100%;
+     height: auto;
+     background-color: rgb(248, 245, 245);
+ }
+
+ .project-view
+  {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px auto;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 30px 0px;
+  }
+
+  .project-view
+  {
+      display: flex;
+      justify-content: space-between;
+  }
+
+.project-card{
+    width: 28%;
+    background-color: #fff;
+    box-shadow: 2px 2px 8px #8888884f;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 10px 10px 10px 10px;
+}
+
+.project-card img
+{
+width: 100%;
+/* margin: 100%; */
+padding: auto;
+height: auto;
+border-radius: 5px;
+}
+
+.project-card i
+{
+    font-size: 25px;
+    margin: auto 4px;
+}
+
+.project-card p
+{
+    text-align: justify;   
+    
+}
+
+ .durasi
+ {
+     font-size: 10;
+     color: rgb(194, 187, 187);
+
+ }
+
+.button-card
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.button-card button
+{
+    padding: 40px auto ;
+    margin: 10px 3px;
+    background-color: black;
+    color: white;
+    font-weight: normal;
+    /* justify-content: space-between; */
+    width: 100%;
+    
+    border-radius: 5px;
+}
+

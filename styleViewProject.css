@@ -1,0 +1,63 @@
+.detail-project-section
+{
+    width: 80%;
+    margin: 0px auto;
+    /* background-color: aqua; */
+}
+
+.detail-project-section h1
+{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+}
+
+.div-detail
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-left
+{
+    width: 60%;
+}
+.detail-left img{
+    width: 100%;
+    border-radius: 20px;
+}
+.detail-right
+{
+    width: 40%;
+    margin-left: 30px;
+
+}
+
+.detail-right p
+{
+    display: flex;
+    align-items: center;
+}
+
+.detail-right i
+{
+ font-weight: bold ;
+ font-size: 24px;
+ margin-right: 10px;   
+}
+
+.detail-techno
+{
+    display: flex;
+}
+
+.detail-techno-left
+{
+    margin-right: 25px;
+}
